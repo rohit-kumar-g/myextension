@@ -404,17 +404,17 @@ function bbb() {
                     console.error('Div with id "playlist" not found');
                 }
                 ////////
-                // if (document.querySelector("#controls") && document.querySelector("#new-div")) {
-                //     const controls = document.querySelector("#controls");
-                //     const newDiv = document.querySelector("#new-div");
+                if (document.querySelector("#controls") && document.querySelector("#new-div")) {
+                    const controls = document.querySelector("#controls");
+                    const newDiv = document.querySelector("#new-div");
 
-                //     newDiv.addEventListener("click", () => {
-                //         controls.style.opacity = "1";  // Make controls visible
-                //         setTimeout(() => {
-                //             controls.style.opacity = "0.1";  // Set opacity to 0.1 after 5 seconds
-                //         }, 5000);
-                //     });
-                // }
+                    newDiv.addEventListener("click", () => {
+                        controls.style.opacity = "1";  // Make controls visible
+                        setTimeout(() => {
+                            controls.style.opacity = "0.1";  // Set opacity to 0.1 after 5 seconds
+                        }, 5000);
+                    });
+                }
 
                 ////////
 
