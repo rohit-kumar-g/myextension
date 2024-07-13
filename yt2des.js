@@ -108,21 +108,21 @@ function toggleMute(button) {
     }
 }
 function fullcss(){
-  document.querySelector("#seekBar").style.top = "40vw";
-  document.querySelector("#my-cl").style.height = "44vw";
-  document.querySelector("#my-cr").style.height = "44vw";
-
+  document.querySelector("#seekBar").style.top = "38vw";
+  document.querySelector("#my-cl").style.height = "39vw";
+  document.querySelector("#my-cr").style.height = "39vw";
 
   let elements = document.querySelectorAll(".roh-buttnn");
                 elements.forEach(element => {
-                    element.style.height = "70px";
+                    element.style.height = "60px";
                 });
             
 }
 function halfcss(){
-    document.querySelector("#seekBar").style.top = "38vw";
-    document.querySelector("#my-cl").style.height = "39vw";
-    document.querySelector("#my-cr").style.height = "39vw";
+    document.querySelector("#seekBar").style.top = "40vw";
+    document.querySelector("#my-cl").style.height = "44vw";
+    document.querySelector("#my-cr").style.height = "44vw";
+  
         let elements = document.querySelectorAll(".roh-buttnn");
         elements.forEach(element => {
             element.style.height = "100px";
