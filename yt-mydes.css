@@ -1,0 +1,232 @@
+:root {
+    --my-vidht: calc(100vw *9/16);
+    /* 16:9*/
+    --my-vidwt: 100vw;
+
+
+    --my-vidht2: calc(var(--my-vidht) - 7vw);
+}
+
+/*------------------------------*/
+ytd-mini-guide-renderer.style-scope.ytd-app {
+    display: none;
+}
+
+.hide-me,
+ytd-rich-section-renderer {
+
+    display: none !important;
+}
+
+ytm-reel-shelf-renderer {
+    display: none !important;
+}
+
+ytd-preview {
+    display: none !important;
+}
+
+/*------------------------------*/
+ytd-rich-item-renderer {
+    width: 880px !important;
+    height: 495px !important;
+    margin: 10px !important;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    zoom: 1.7;
+}
+
+ytd-rich-grid-row #contents.ytd-rich-grid-row {
+    /*rohit:rohit;*/
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    margin: 20px !important;
+}
+
+#content.ytd-rich-item-renderer {
+    zoom: 1.2;
+}
+
+/*------------------------------*/
+/* watch done////////////////////*/
+
+/*////////////////////*/
+ytd-comments {
+    display: none !important;
+}
+
+div#below {
+    font-size: 28px !important;
+    line-height: 30px !important;
+
+    margin-block: 50px;
+
+    #info,
+    #meta {
+        display: none !important;
+    }
+}
+
+#secondary {
+    display: none !important;
+}
+
+#secondary #donation-shelf {
+    display: none !important;
+
+}
+
+#secondary #chat-container {
+    display: none !important;
+}
+
+#related div#items {
+
+    zoom: 2;
+    /*width: 10vw !important; noeffect*/
+}
+
+#video-title.ytd-compact-video-renderer {
+
+    font-size: 28px !important;
+    line-height: 30px !important;
+    font-weight: 500 !important;
+    overflow: hidden;
+    display: block;
+    max-height: 16rem !important;
+    -webkit-line-clamp: 4 !important;
+
+}
+
+ytd-compact-video-renderer.style-scope.ytd-watch-next-secondary-results-renderer {
+    width: 55vw !important;
+}
+
+.ytp-chrome-bottom {}
+
+.ytp-left-controls {}
+
+.ytp-right-controls {}
+
+/*////////////////////*/
+
+#new-div {
+    margin-top: var(--my-vidht) !important;
+    overflow: scroll;
+    position: absolute;
+    width: var(--my-vidwt) !important;
+
+
+}
+
+#new-div2 {
+    z-index: 9994;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: var(--my-vidht) !important;
+    width: var(--my-vidwt) !important;
+
+}
+
+.html5-video-container {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+video {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+/*------------------------------*/
+#controls {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    max-height: 300tx;
+    z-index: 99995;
+}
+
+.roh-buttnn {
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+    opacity: 0.8;
+    cursor: pointer;
+    color: cyan;
+    width: 100px;
+    font-size: 24px;
+    height: 100px;
+    background: white;
+}
+
+a.roh-buttnn {}
+
+.myfullscreen {}
+
+.playnpaz {
+    position: absolute;
+    background: transparent;
+    height: 200px;
+    width: 200px;
+    top: calc(-1*var(--my-vidht)/1.6);
+    top: 100px;
+    border: 2px solid black;
+    color: transparent;
+    left: calc(var(--my-vidwt)/2.5);
+}
+
+
+
+.back30 {
+    /*left: calc(var(--my-vidwt)/9);*/
+
+}
+
+
+.fore30 {
+    /*left: calc(var(--my-vidwt)/1.5);*/
+
+}
+
+#seekBar {
+    position: absolute;
+    left: 16vw;
+    top: 40vw;
+    width: 68vw;
+}
+
+
+
+#my-cl {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    height: var(--my-vidht2) ;
+    top: 10px;
+    left: 10px;
+
+    background: redd;
+}
+
+#my-cr {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    height: var(--my-vidht2) ;
+    top: 10px;
+    left: 90vw;
+
+    background: redd;
+}
